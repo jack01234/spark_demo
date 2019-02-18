@@ -66,6 +66,11 @@
                 <artifactId>h2</artifactId>
                 <version>1.4.196</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.ignite</groupId>
+                <artifactId>ignite-spark</artifactId>
+                <version>2.6.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

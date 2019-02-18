@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
 
-@Configuration
+//@Configuration
 public class IgniteConfig {
 
-    @Bean
+//    @Bean
     public Ignite start(){
         IgniteConfiguration cfg = new IgniteConfiguration();
         cfg.setClientMode(true);
